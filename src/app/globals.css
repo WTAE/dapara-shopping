@@ -25,3 +25,24 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+.card {
+  @apply mb-5 block rounded-lg border border-gray-200 shadow-md;
+}
+
+.cart-badge {
+  @apply absolute font-bold text-orange-600 ml-8 mt-0 text-center w-4;
+}
+
+.primary-button{
+  @apply rounded bg-amber-300 hover:bg-amber-400 active:bg-amber-500 text-black py-2 px-4 shadow outline-none;
+}
+
+.default-button{
+  @apply rounded bg-gray-100 hover:bg-gray-200 active:bg-gray-300 text-black py-2 px-4 shadow outline-none;
+}
+
+input, select, textarea {
+  @apply rounded border p-2 outline-none ring-indigo-300 focus:ring dark:text-white dark:bg-gray-800;
+}

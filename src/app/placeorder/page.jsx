@@ -44,9 +44,11 @@ export default function PlaceOrderScreen() {
             <div className="card p-5">
               <h2 className="mb-2 text-lg">Shipping Address</h2>
               <div>
-                {shippingAddress.fullName}, {shippingAddress.address},
-                {shippingAddress.city}, {shippingAddress.postalCode},
-                {shippingAddress.country}
+                Name : {shippingAddress.fullName}, 
+                Address : {shippingAddress.address},
+                City : {shippingAddress.city}, 
+                PostalCode : {shippingAddress.postalCode},
+                Country : {shippingAddress.country}
               </div>
               <div>
                 <Link
